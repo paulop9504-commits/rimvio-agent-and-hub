@@ -19,7 +19,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@rimvio/shared": ["../shared/index.ts"],
+      "@rimvio/shared/*": ["../shared/*"]
     }
   },
   "include": [
